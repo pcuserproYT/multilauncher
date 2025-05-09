@@ -2,7 +2,12 @@
 
 **P-Win-launch** is a Windows tool, allowing to launch processes in bulk with various parameters. Designed for general use cases and software experimentation, this could be a great tool for managing multiple software tools. 
 
-**Current status: at the start line**
+**Current status: basic code**
+
+### Usage
+This basic version supports two arguments `process` and `instance count`. Both are needed to be specified.
+Example of usage in CMD: `p-win-launch.bat notepad.exe 5` 
+This will open up 5 windows of the process `notepad.exe`.
 
 ✅ Ideas
 
