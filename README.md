@@ -1,7 +1,6 @@
-# multilauncher
-<img width="449" alt="image" src="https://github.com/user-attachments/assets/4487adcc-5922-4551-86f8-7704fe6d76df" />
+# P-Win-launch
 
-**Multilauncher** is a Windows tool, allowing to launch processes in bulk with various parameters. Designed for general use cases and software experimentation, this could be a great tool for managing multiple software tools. 
+**P-Win-launch** is a Windows tool, allowing to launch processes in bulk with various parameters. Designed for general use cases and software experimentation, this could be a great tool for managing multiple software tools. 
 
 **Current status: at the start line**
 
