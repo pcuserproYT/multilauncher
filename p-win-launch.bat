@@ -10,11 +10,13 @@ set "delay=%~3"
 :: safety check
 if "%process%"=="" (
 	echo Please specify process name or path.
+	pause
 	exit /b
 )
 
 if "%count%"=="" (
 	echo Please specify count of instances of running. 
+	pause
 	exit /b
 )
 
