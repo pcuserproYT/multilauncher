@@ -5,6 +5,7 @@ setlocal
 
 set "process=%~1"
 set "count=%~2"
+set "delay=%~3"
 
 :: safety check
 if "%process%"=="" (
@@ -17,12 +18,14 @@ if "%count%"=="" (
 	exit /b
 )
 
+
 echo processed information: process %process% ; instance count %count%
 
 
 echo launching
 
 for /L %%i in (1,1,%count%) do (
+	timeout /T %delay% > nul
 	start "" "%process%"
 )
 
