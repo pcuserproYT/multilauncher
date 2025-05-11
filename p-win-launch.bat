@@ -18,6 +18,11 @@ if "%count%"=="" (
 	exit /b
 )
 
+:: bugfix: if delay argument is not specified, delay set to 0
+if "%delay%"=="" (
+	set "delay=0"
+)
+
 
 echo processed information: process %process% ; instance count %count%
 

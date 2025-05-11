@@ -5,10 +5,9 @@
 **Current status: basic code**
 
 ### Usage
-This basic version supports three arguments `process`, `instance count` and `delay` (seconds). `Process` and `Instance count` are needed to be specified while `delay` is optional. In order to run without any delay, this argument should be left blank or a 0 should be put. For now, leaving it blank makes the code work good, but throw an error in the CMD because of a missing argument inside. This is planned to get fixed later.
-
+This basic version supports three arguments `process`, `instance count` and `delay` (seconds). `Process` and `Instance count` are needed to be specified while `delay` is optional. In order to run without any delay, this argument should be left blank or a 0 could be inserted.
 Example of usage in CMD: `p-win-launch.bat notepad.exe 5 3` 
-This will open up 5 windows of the process `notepad.exe` with the delay of 3 seconds 
+This will open up 5 windows of the process `notepad.exe` with the delay of 3 seconds.
 
 ✅ Ideas
 
