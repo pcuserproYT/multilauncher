@@ -2,10 +2,15 @@
 
 **P-Win-launch** is a Windows tool, allowing to launch processes in bulk with various parameters. Designed for general use cases and software experimentation, this could be a great tool for managing multiple software tools. 
 
-### Usage
+## Usage
 
-**p-win-launch.bat**
-This is the main program. 
+### UI 
+A simple CMD-based UI was introduced to the program, making it more user friendly and the launching with arguments is not the main way, but still a possible one. Launch `MainUI.bat`, since it is a UI, everything is explained while using. 
+
+### Arguments
+**The prefered method is by UI, but it is still possible to execute the program with arguments. Here are instructions:**
+
+**basicusage.bat**
 
 It supports three arguments `process`, `instance count` and `delay` (seconds). `Process` and `Instance count` are needed to be specified while `delay` is optional. In order to run without any delay, this argument should be left blank or a 0 could be inserted.
 Example of usage: `p-win-launch.bat notepad.exe 5 3` 
@@ -18,15 +23,14 @@ It supports two arguments `process` and `delay` (seconds). `Process` is needed t
 Example of usage: `spammer.bat notepad.exe 1`
 It will spam-open `notepad.exe` with the delay of 1 second until the system crashes or the process is interrupted by some way. 
 
+---
+
 ✅ Ideas
 
 
-**[WORKING ON]** Basic batch code, usable with CMD + needed documentation of usage
+✅ Basic batch
 
 
-❌ Extended functionality
+[WORKING ON] Extended functionality
 
 
-❌ GUI
-
-I don't frequently have time or ideas, so I will do this project when I can and want. I am also taking this as an opportunity to test and improve my batch skills and explore the options of creating GUI based-apps.
